@@ -1,0 +1,58 @@
+
+div {
+display: inline-block;
+}
+
+.outside
+{
+    height: 200px;
+    width: 200px;
+    position: static;
+}
+
+.inside
+{
+    height: 100px;
+    width: 100px;
+}
+
+#first
+{
+background-color: gray;
+}
+#second
+{
+background-color: black;
+}
+#third
+{
+background-color: blue;
+}
+#fourth
+{
+background-color: purple;
+
+}
+
+
+#inside_first
+{
+    background-color: orange;
+    float: right;
+}
+#inside_second
+{
+    background-color: yellow;
+    float: right;
+    margin-top: 100px;
+}
+#inside_third
+{
+    background-color: green;
+    margin-top: 100px;
+}
+#inside_fourth
+{
+    background-color: pink;
+    position:absolute;
+}
